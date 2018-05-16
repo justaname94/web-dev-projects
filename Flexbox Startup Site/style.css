@@ -2,3 +2,58 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /* 'Quicksand' font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+header { 
+  color: #e4e7e7;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;  
+  /* border: 5px solid red; */
+}
+
+.logo:hover,
+.nav-item:hover {
+  color: #F2F3F3;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#menu {
+  width: 29%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.bg {
+  height: 100%;
+  background: linear-gradient(
+    rgba(54, 59, 65, 0.7), 
+    rgba(54, 59, 65, 0.7)), 
+    url("media/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
