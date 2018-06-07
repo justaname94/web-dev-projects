@@ -182,7 +182,6 @@ ul.grid li {
 }
 
 #features ul li {
-  /* border: 2px solid blue; */
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -199,4 +198,19 @@ ul.grid li {
 
 #features ul li h4 {
   margin-bottom: 20px;
+}
+
+#reviews h2 {
+  margin-bottom: 35px;
+}
+
+#reviews > .quote {
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#reviews > .author {
+  font-size: 18px;
+  margin-bottom: 50px;
 }
