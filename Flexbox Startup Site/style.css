@@ -16,16 +16,22 @@ body, html {
 
 header { 
   color: #e4e7e7;
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: space-between; */
+  /* border: 2px solid red; */
+  padding-bottom: 100px;
+  align-content: flex-end;
+}
+
+#showcase {
+  align-self: center;
 }
 
 nav {
-  height: 100px;
   display: flex;
-  list-style-type: none;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 100px 0 100px;  
-  /* border: 5px solid red; */
+  padding: 35px 85px 0 100px;  
 }
 
 .logo:hover,
@@ -40,11 +46,14 @@ nav {
   font-size: 24px;
 }
 
+.nav-item {
+  margin: 0 15px 0 15px;
+}
+
 #menu {
-  width: 29%;
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .bg {
