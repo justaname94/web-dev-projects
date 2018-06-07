@@ -12,6 +12,7 @@
 body, html {
   font-family: sans-serif;
   height: 100%;
+  color: #555;
 }
 
 a {
@@ -34,6 +35,31 @@ nav {
   padding: 35px 85px 0 100px;  
   color: #e4e7e7;
   flex-flow: row nowrap;
+}
+
+section {
+  display: flex;
+  padding: 125px 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
+  font-weight: normal; 
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 800px;
+  line-height: 2;
+}
+
+hr {
+  margin-bottom: 50px;
+  width: 150px;
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
 .logo:hover,
@@ -74,19 +100,12 @@ nav {
   padding-bottom: 40px;
 }
 
-#showcase {
+.title {
+  font: bold 32px 'Open Sans', sans-serif;
   color: #414A4F;
 }
 
-#showcase h2 {
-  font: bold 32px 'Open Sans', sans-serif;
-}
-
-#showcase p {
-  font: normal 'Open Sans', sans-serif;
-  text-align: center;
-  max-width: 800px;
-  line-height: 2;
+#our-work p {
   margin: 35px; 
 }
 
@@ -106,13 +125,6 @@ nav {
   z-index: -1;
 }
 
-section {
-  display: flex;
-  padding: 125px 100px;
-  flex-direction: column;
-  align-items: center;
-}
-
 .btn {
   background-color: #2196F3;
   border: 4px solid #2196F3;
@@ -124,15 +136,6 @@ section {
   text-transform: uppercase;
   font-size: 16px;
   text-decoration: none;
-}
-
-hr {
-  margin-bottom: 50px;
-  width: 150px;
-  border: 1px solid #2196F3;
-  background-color: #2196F3;
-  display: flex;
-  justify-content: center;
 }
 
 ul.grid {
