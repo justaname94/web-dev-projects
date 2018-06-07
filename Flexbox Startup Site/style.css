@@ -214,3 +214,25 @@ ul.grid li {
   font-size: 18px;
   margin-bottom: 50px;
 }
+
+#newsletter {
+  background-color: #F7F7F7;
+}
+
+#newsletter h2, 
+#newsletter p {
+  padding-bottom: 30px;
+}
+
+#newsletter form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#newsletter form input {
+  font-size: 18px;
+  flex-basis: 550px;
+  margin-right: 30px;
+  padding: 10px;
+}
