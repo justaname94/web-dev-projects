@@ -24,14 +24,10 @@ nav {
   flex-flow: row nowrap;
 }
 
-#showcase {
-  display: flex;
+#hero {
+  color: #fff;
   justify-content: center;
   min-height: 100vh;
-}
-
-.call-to-action {
-  align-self: center;
 }
 
 .logo:hover,
@@ -70,4 +66,32 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+}
+
+section {
+  display: flex;
+  padding: 125px 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #2196F3;
+  border: 4px solid #2196F3;
+  border-radius: 4px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a {
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
 }
