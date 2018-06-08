@@ -236,3 +236,34 @@ ul.grid li {
   margin-right: 30px;
   padding: 10px;
 }
+
+footer {
+  background-color: #414A4F;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+footer p {
+  font-size: 14px;
+  color: #B1B5B7;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+footer ul.social-media li {
+  margin-left: 15px;
+  font-size: 32px;
+
+}
+
+footer ul.social-media li a i {
+  color: #ffffff;
+}
