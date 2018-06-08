@@ -38,7 +38,7 @@ nav {
   justify-content: space-between;
   padding: 35px 85px 0 100px;  
   color: #e4e7e7;
-  flex-flow: row nowrap;
+  /* flex-flow: row nowrap; */
 }
 
 section {
@@ -104,15 +104,18 @@ hr {
 #hero h2 {
   font: normal 28px 'Open Sans', sans-serif;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .title {
   font: bold 32px 'Open Sans', sans-serif;
   color: #414A4F;
+  text-align: center;
 }
 
 .subtitle {
   font: bold 20px sans-serif;
+  text-align: center;
 }
 
 #our-work p {
@@ -178,11 +181,11 @@ ul.grid li {
 
 #features h2,
 #features p {
+  text-align: center;
   margin-bottom: 35px;
 }
 
 #features ul {
-  /* width: 100%; */
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -215,11 +218,13 @@ ul.grid li {
   font-size: 22px;
   margin-bottom: 20px;
   line-height: 1.5;
+  width: 80%;
 }
 
 #reviews > .author {
   font-size: 18px;
   margin-bottom: 50px;
+  width: 80%;
 }
 
 #newsletter {
@@ -278,10 +283,11 @@ footer ul.social-media li a i {
 @media only screen and (max-width: 1000px) {
   #features ul li {
     flex-basis: 70%;
+    margin-bottom: 50px;
   }
 
   section {
-    padding: 50px;
+    padding: 100px 50px;
   }
 
   nav {
@@ -290,5 +296,73 @@ footer ul.social-media li a i {
 
   ul.grid {
     flex-direction: column;
+  }
+
+  #newsletter form input {
+    flex-basis: 450px;
+  }
+
+  #reviews > .quote {
+    font-size: 20px;
+  }
+
+  #reviews > .author {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #hero {
+    padding: 200px 0;
+  }
+
+  #hero h1 {
+    font-size: 48px;
+  }
+
+  #hero h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    padding: 11px 36px;
+  }
+
+  #our-work p {
+    margin: 35px 20px;
+  }
+
+  .reviews {
+    width: 10%;
+  }
+
+  #newsletter form {
+    flex-wrap: wrap;
+  }
+
+  #newsletter form input {
+    margin: 0 0 15px 0;
+    flex-basis: 550px;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 0 0 0 15px;
+  }
+
+  .logo {
+    padding-bottom: 15px;
+  }
+
+  #features ul li {
+    margin-bottom: 150px;
   }
 }
